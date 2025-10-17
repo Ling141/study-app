@@ -1,0 +1,129 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #568F87;
+  padding: 0 16px;
+}
+
+header {
+  display: flex;
+  background-color: #064232;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #FFF5F2;
+  font-family: "Open Sans", cursive;
+  font-weight: 500;
+}
+header div {
+  margin-left: auto;
+}
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #FFF5F2;
+}
+.note {
+  background: #FFF5F2;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #FFF5F2;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #064232;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+form {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form input,
+form textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #064232;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+.timer {
+
+  height: 300px;
+  width: 40%; 
+  padding: 10px;
+  position: relative;
+  margin: 30px auto 20px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 7px;
+  text-align: center;
+  
+
+}
+
+.timer h1 {
+
+  font-size: 100px;
+  margin: 50px 10px;
+  color: #FFF5F2;
+ 
+
+}
